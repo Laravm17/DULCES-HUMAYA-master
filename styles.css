@@ -1,0 +1,157 @@
+/* Estilos de presentación */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#fondoDePortada {
+    background-image: url(./IMAGENES/Central/imagenCentral.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.contenedor-primera-seccion h1 {
+    color: #FFFAF4;
+}
+
+.contenedor-primera-seccion {
+    width: 75%;
+    padding: 4rem 2rem;
+}
+
+/* Productos */
+
+.card {
+    border: none;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: #e0bc90;
+    padding: 1rem;
+}
+
+.card-title {
+    color: #e0bc90;
+    display: flex;
+    justify-content: center;
+}
+
+.card-text {
+    color: #FFF;
+    margin-top: 2rem;
+}
+
+.text-muted {
+    color: #e0bc90 !important;
+}
+
+.btn {
+    color: #e0bc90;
+    border-style: solid;
+    display: block;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+/*
+img {
+    width: 100%;
+}
+
+.cuerpo {
+    background-color: #000000;
+    padding: 2.5rem;
+}
+
+.título-producto {
+    color: #e0bc90;
+}
+
+.texto-producto {
+    color: white;
+}
+
+.texto-muteado-producto {
+    color: #e0bc90;
+    font-size: 0.9rem;
+}
+
+.botón-producto {
+    color: #e0bc90;
+    background-color: #000000;
+    display: block;
+    margin: auto;
+    padding: 0.5rem 8rem; 
+    border-color: #e0bc90;
+    border-radius: 5px;
+}
+
+#alfajores {
+    background-image: url(./IMAGENES/Productos/Producto4b.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+
+.cuerpo-alfajores {
+    width: 50%;
+    margin: 1.5rem;
+}
+
+
+ */
+
+@media screen and (min-width: 380px) and (max-width: 580px){
+    
+}
+
+@media screen and (min-width: 581px) and (max-width: 1200px) {
+    .contenedor-primera-seccion {
+        width: 50%;
+    }    
+}
+
+@media screen and (min-width: 1201px) {
+    .contenedor-primera-seccion {
+        width: 35%;
+        padding: 4rem 2rem;
+        background-color: rgba(0,0,0, 0.6);
+        margin: 0 2 rem;
+    }
+    
+    #fondoDePortada {
+        display: flex;
+        justify-content: right;
+        padding: 2rem;
+    }
+
+    .contenedor-primera-seccion p {
+        color: #FFFAF4;
+    }
+
+    .contenedor-primera-seccion button {
+        display: block;
+        margin: auto;
+        margin-top: 3rem !important;
+    }
+  
+    
+}
